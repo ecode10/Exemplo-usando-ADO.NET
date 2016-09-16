@@ -1,0 +1,5 @@
+C:\Users\mauriciojunior\Documents\Visual Studio 2013\Projects\AlunoWeb\Aluno.Biblioteca\bin\Debug\Aluno.Biblioteca.dll
+C:\Users\mauriciojunior\Documents\Visual Studio 2013\Projects\AlunoWeb\Aluno.Biblioteca\bin\Debug\Aluno.Biblioteca.pdb
+C:\Users\mauriciojunior\Documents\Visual Studio 2013\Projects\AlunoWeb\Aluno.Biblioteca\obj\Debug\Aluno.Biblioteca.dll
+C:\Users\mauriciojunior\Documents\Visual Studio 2013\Projects\AlunoWeb\Aluno.Biblioteca\obj\Debug\Aluno.Biblioteca.pdb
+C:\Users\mauriciojunior\Documents\Visual Studio 2013\Projects\AlunoWeb\Aluno.Biblioteca\obj\Debug\Aluno.Biblioteca.csprojResolveAssemblyReference.cache
