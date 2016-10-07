@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Aluno.Biblioteca.DTO;
+using Aluno.Biblioteca.MODEL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -19,7 +21,7 @@ namespace AlunoWeb
 
         private void buscarDisciplinas()
         {
-            Aluno.Biblioteca.MODEL.DisciplinaModel disciplina = new Aluno.Biblioteca.MODEL.DisciplinaModel();
+            DisciplinaModel disciplina = new DisciplinaModel();
             this.grdDisciplinas.DataSource = disciplina.buscarDisciplinas();
             this.grdDisciplinas.DataBind();
         }

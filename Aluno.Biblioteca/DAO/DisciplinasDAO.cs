@@ -20,7 +20,7 @@ namespace Aluno.Biblioteca.DAO
                 try
                 {
                     conn.Open();
-                    var sql = "SELECT IdDisc, DescricaoDisc FROM Disciplinas ORDER BY DescricaoDisc";
+                    var sql = "SELECT IdDisc, NomeDisc FROM Disciplinas ORDER BY NomeDisc";
                     SqlCommand command = new SqlCommand(sql, conn);
                     command.CommandType = CommandType.Text;
 
@@ -50,12 +50,13 @@ namespace Aluno.Biblioteca.DAO
         /// <returns>Boolean</returns>
         internal Boolean inserirDisciplina(DisciplinasDTO dto)
         {
-            using (SqlConnection conn = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["SQLConexaoLocal"].ToString()))
+            using (SqlConnection conn = 
+                new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["SQLConexaoLocal"].ToString()))
             {
                 try
                 {
                     conn.Open();
-                    var sql = "INSERT INTO Disciplinas (DescricaoDisc) VALUES (@descricao) ";
+                    var sql = "INSERT INTO Disciplinas (NomeDisc) VALUES (@descricao) ";
 
                     SqlCommand command = new SqlCommand(sql, conn);
                     command.CommandType = CommandType.Text;

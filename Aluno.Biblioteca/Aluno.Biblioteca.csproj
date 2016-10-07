@@ -41,11 +41,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAO\AlunoDAO.cs" />
+    <Compile Include="DAO\CidadeDAO.cs" />
     <Compile Include="DAO\DisciplinasDAO.cs" />
+    <Compile Include="DAO\EstadoDAO.cs" />
     <Compile Include="DTO\AlunoDTO.cs" />
+    <Compile Include="DTO\CidadeDTO.cs" />
     <Compile Include="DTO\DisciplinasDTO.cs" />
     <Compile Include="MODEL\AlunoModel.cs" />
+    <Compile Include="MODEL\CidadeModel.cs" />
     <Compile Include="MODEL\DisciplinaModel.cs" />
+    <Compile Include="MODEL\EstadoModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

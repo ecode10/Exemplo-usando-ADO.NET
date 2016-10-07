@@ -12,18 +12,19 @@ namespace AlunoWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            preencherGrid();
+        }
 
+        private void preencherGrid()
+        {
+            Aluno.Biblioteca.MODEL.AlunoModel alunoModel = new Aluno.Biblioteca.MODEL.AlunoModel();
+            grdAluno.DataSource = alunoModel.buscarTodosAlunos();
+            grdAluno.DataBind();
         }
 
         protected void cmdBuscar_Click(object sender, EventArgs e)
         {
-            AlunoDTO dto = new AlunoDTO();
-            dto.nomeAluno = txtAluno.Text;
-
-
-            Aluno.Biblioteca.MODEL.AlunoModel alunoModel = new Aluno.Biblioteca.MODEL.AlunoModel();
-            grdAluno.DataSource = alunoModel.buscarAlunosPeloNome(dto);
-            grdAluno.DataBind();
+            
         }
     }
 }

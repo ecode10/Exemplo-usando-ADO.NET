@@ -168,6 +168,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="deletar.aspx" />
+    <Content Include="EstadoECidade.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="InserirDisciplinas.aspx" />
     <Content Include="packages.config" />
@@ -373,6 +374,13 @@
     </Compile>
     <Compile Include="deletar.aspx.designer.cs">
       <DependentUpon>deletar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EstadoECidade.aspx.cs">
+      <DependentUpon>EstadoECidade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EstadoECidade.aspx.designer.cs">
+      <DependentUpon>EstadoECidade.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
